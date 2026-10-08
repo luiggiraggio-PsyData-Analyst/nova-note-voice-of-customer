@@ -1,0 +1,4 @@
+model,accuracy,macro_f1,cohen_kappa
+roberta,0.6,0.469,0.356
+vader,0.4,0.287,0.153
+roberta_vader,,,0.674

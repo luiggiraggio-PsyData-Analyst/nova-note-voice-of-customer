@@ -1,0 +1,9 @@
+I am the operations lead for a creative agency of about twenty-five people. We chose NovaNote because we pitch constantly and templates were supposed to save our week. Instead, templates became the thing that wasted it.
+
+The template gallery is large, which sounds great. But the templates are not linked to a consistent structure. When a designer creates a new project folder, pasting a template drags along random blocks, duplicate headers and sample content that nobody remembers to delete. We built our own template set, only to discover you cannot version templates or lock them, so team members kept editing and breaking the master copies. For an agency, templates are our product. This weakness cost us hours every single week.
+
+Onboarding for new hires was decent. They found the interface approachable, and we reused a neat onboarding checklist. But the small annoyances multiplied. The mobile app is sluggish for review, the search struggles with images and PDFs, and collaboration comments cannot be assigned. All of it created slow friction.
+
+Support treated us well. Responses were fast, polite and technically useful, which I genuinely appreciated. That is one thing NovaNote did right. Still, the roadmap is a black box. A feature we needed since month one, reusable locked templates, is still not there, and there is no public timeline we can point at in front of our leadership.
+
+We are phasing out NovaNote for a purpose-built template system and a plain wiki. I hope the product team understands that for service businesses, templates are not a feature, they are the core asset.

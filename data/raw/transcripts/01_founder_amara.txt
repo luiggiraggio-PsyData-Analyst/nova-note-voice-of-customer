@@ -1,0 +1,9 @@
+We switched to NovaNote around February because we wanted one place for docs, tasks and notes instead of five tools. The idea was perfect for a four-person startup. Onboarding was honestly painless at first. The sample templates and the quick tour got us productive on day one, and I remember thinking this is finally the all-in-one we hoped for.
+
+The trouble started when we really began to use it. We created wikis for engineering and marketing, databases for the roadmap, and shared dashboards with clients. Around the fourth month the app started feeling heavier. Loading a page with a few thousand linked blocks took seconds, and search would freeze on big databases. For a small team that was a real annoyance, because we live inside these documents all day.
+
+Support made it worse. I opened a ticket about the search lag and the reply took four days. When they answered it was a template asking me to clear the cache. That really put me off. I know startups cannot afford a huge support desk, but four days for a paying customer is not acceptable.
+
+Pricing was the final reason we left. We were on the Pro plan, and when renewal came around the price had increased by forty percent without a clear explanation of what changed. For a bootstrapped company that felt unfair, and honestly it pushed me to compare alternatives. When I opened a spreadsheet and put our real usage side by side, Notion ended up costing half as much for the same features. That decided it.
+
+I would say NovaNote has a beautiful product and a promising team, but the value collapsed for us as we scaled. Faster performance, honest pricing and a support team that answers within a day would have kept us. As it stands I regret canceling a little, because the writing experience was genuinely the best I have used.

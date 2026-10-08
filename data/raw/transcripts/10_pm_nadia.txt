@@ -1,0 +1,9 @@
+I am a product lead at an edtech company and I imported our entire curriculum into NovaNote. The integration potential was why we bought it, and the roadmap is why we left.
+
+The base product is excellent. The editor, the databases, the beautiful block system, all of it felt like a genuine step forward. Our course authors wrote content in NovaNote happily for almost a year. The API was also promising, we built a small exporter that pulled course pages into our learning platform, and it worked better than expected.
+
+Then the platform let us down. Our education platform needs deep integrations with an LMS, a grading tool and a video host. NovaNote has no native connectors for any of them, and the public roadmap is silent. Two proposed partnership integrations I tracked for six months went nowhere. For an organization that plans around a content pipeline, a silent roadmap is a real business risk.
+
+The pricing escalation also stung. When our author count grew, we needed a plan that includes API access, and the jump between tiers was steep, with little documentation on what we were paying for. We felt like the product was designed to monetize integration hunger rather than remove the friction.
+
+Performance stayed acceptable at our scale, and onboarding for authors was smooth, which I credit to thoughtful defaults. But strategy concerns dominated. We migrated to open standards with a stable integration ecosystem, and the move cost us a quarter. My message to NovaNote is straightforward: a great editor is table stakes, but for serious teams the roadmap, integrations and honest pricing are the decision.

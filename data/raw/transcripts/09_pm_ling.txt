@@ -1,0 +1,9 @@
+I manage operations for an e-commerce team of about thirty people. We tried NovaNote for four months, and support was the decisive reason we cancelled. I know that sounds odd, support influencing a cancel, but for us it was everything.
+
+The product itself is strong. The database feature, which lets us keep product catalogs and campaign trackers in one place, was the best part. Onboarding was smooth, most of the team picked it up in a week, and the monthly billing page was clear. Performance was fine at our size, and search was genuinely fast. I have nothing bad to say about the core app.
+
+Support, though, was a letdown. We had one recurring issue with an automation that duplicated rows. I sent a ticket, got a response two days later asking for more logs, then silence for a week. When I escalated, a new agent started from scratch and asked for the same logs. The cycle repeated for a month without a fix. For a business team, a month with a buggy automation is a month of polluted reports.
+
+Collaboration tools were average. Comments exist, but you cannot notify a specific person by typing their name, which we found needlessly limiting. And the roadmap page is so vague that we could not tell whether the automation bug was even acknowledged.
+
+We switched to a competitor with responsive support and a better automation model. I want to be fair: NovaNote has a lovely core product. But software is bought twice, once for the features and once for the care, and the second purchase we took elsewhere.

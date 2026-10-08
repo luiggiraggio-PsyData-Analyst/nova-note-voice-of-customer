@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+.env
+.streamlit/secrets.toml
+nosetests/
+.pytest_cache/
+.huggingface/
+*.DS_Store

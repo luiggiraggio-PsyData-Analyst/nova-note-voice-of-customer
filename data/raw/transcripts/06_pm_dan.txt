@@ -1,0 +1,9 @@
+I lead product for a forty-person scaleup, and NovaNote was our company wiki for almost a year. The collapse was slow until it was sudden. Early on, everything glowed. The editor was fast, search was quick, and our engineering team adopted it without a single complaint. We built detailed specs, RFCs and decision logs, and NovaNote made it feel effortless.
+
+Collaboration is where the product fails at scale. Real-time editing is fine for two people, but with a team of forty you get constant merge collisions. There is no fine-grained permission for a document, only workspace-wide settings, so an intern can delete a page that senior staff authored. We lost a data-schema doc once, recovered from a backup, and everyone lost confidence. Concurrency and access control are not nice-to-haves, they are the core contract of a shared knowledge base.
+
+Performance followed the same curve. At first everything loaded instantly, but once we crossed a few thousand pages with heavy embeds, navigation slowed and the command palette lagged. People started hoarding links in Slack because opening NovaNote felt slow. A wiki is only as good as its performance at its actual size, and NovaNote did not scale with us.
+
+We tried support, and support was courteous but shallow. Two of our fastest issues were closed as known bugs with no timeline. For a business tool that we host our source decisions in, that answer is not enough.
+
+We moved to a more structured platform with proper permissions and revision history. It cost more, but the reliability is worth it. My honest recommendation to NovaNote: nail collaboration permissions and document-level performance before adding any new feature.

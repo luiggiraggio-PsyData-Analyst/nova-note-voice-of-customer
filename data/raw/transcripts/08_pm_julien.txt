@@ -1,0 +1,9 @@
+We are a fifteen-person fintech team, and security was the entire conversation. I chose NovaNote because a colleague vouched for the product, and the reviews were strong. The editor is excellent and the writing experience is honestly wonderful. But for a financial company, the security posture was not formal enough.
+
+There is single sign-on only on the most expensive plan, and even then identity policies are limited. We could not enforce granular retention, and audit logs are shallow. When our compliance officer asked for a export of access logs for a specific folder, the export omitted key events. That is a serious problem in our industry.
+
+Data residency was the deal breaker. Our company policy requires data to remain in the region. NovaNote routed our workspace to a data center we could not select, and support said residency selection was restricted to certain tiers. We could not compromise on that, so the decision was effectively made for us.
+
+The performance was good and onboarding was pleasant, but none of that matters when the product cannot meet regulatory requirements. I will also note that pricing transparency is poor. The features on each plan are unclear until you contact sales, which added friction to an already difficult decision.
+
+We migrated everything to a self-hosted solution with full audit control. It was painful but non-negotiable. My advice to NovaNote is to lead with security maturity documents, clear residency options and honest plan feature tables, because that is what companies like ours need before anything else.

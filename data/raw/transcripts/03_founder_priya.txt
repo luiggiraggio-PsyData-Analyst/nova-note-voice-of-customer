@@ -1,0 +1,9 @@
+Integrations were the reason we chose NovaNote and the reason we left. We are a three-person data consultancy, and our whole workflow depends on connecting notes to our CRM, an analytics dashboard and a couple of automations. NovaNote supports the big names, but the connector quality is uneven. The webhook documentation is thin, and the API rate limits are punishing for a small business.
+
+I am the founder and the de facto admin, so I lived in the API. Setting up a simple sync between our client notes and the CRM took far longer than it should, because the API returns nested relations in a format nobody documents. There is no official SDK in our language, so I glued together raw calls. It worked, but it was fragile. Twice a month the sync broke silently and we only noticed when a client complained a meeting note was missing.
+
+The app itself is pleasant. Rendering is fast, the mobile app is decent for quick reads, and search across workspaces is genuinely good. I did not want to leave. But the absence of robust native integrations and a reliable API killed the value for a team that sells data services. We need tools that behave predictably under automation.
+
+Support for developers is minimal. The docs go stale, and forum answers are months old. When I reported a rate-limit bug, the response suggested we upgrade to a plan that includes higher limits. That is a legitimate answer but also an expensive one for a tiny company.
+
+We migrated our notes to Obsidian with a sync layer and our CRM integration got simpler. I genuinely hope NovaNote fixes its API story, because the writing product is outstanding. For now, the integration gap is simply too expensive for us to live with.

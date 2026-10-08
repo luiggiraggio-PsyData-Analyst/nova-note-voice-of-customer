@@ -1,0 +1,9 @@
+I took the free plan first, mostly to test. Onboarding felt smooth at the very start. The setup wizard asked the right questions and suggested a starter workspace, and my two co-founders imported their notes without friction. I was genuinely impressed for the first two weeks.
+
+Then the confusion began. NovaNote keeps two overlapping concepts, spaces and pages, and the permissions model is not intuitive. I wasted an entire afternoon trying to share a single page with an investor, and the link still required a login. At that moment I realized the learning curve was steeper than the marketing promised. Documentation around sharing and guest access is thin, and a novice like me found it frustrating.
+
+The trial pricing confused me as much as the permissions. We were automatically switched to a paid plan after the trial, which I noticed only when my card was charged. Not a single warning email explained the change. For a three-person startup watching every dollar, being surprise-charged is a deal breaker. Refunding was easy, and support was polite, but the trust was already gone.
+
+Performance was good on our small workspace, and the templates impressed us for project trackers. But we kept tripping over the advanced structure. We are not power users, we just wanted a shared space where we could write and track tasks. NovaNote made writing delightful and everything around it complicated.
+
+I think the product team assumed their users are far more technical than we are. We moved to a simpler notes app and we are happier. The honest message is the same one I gave the refund team: delight us on the basics first, and surprise-charge us never.

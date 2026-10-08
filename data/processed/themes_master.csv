@@ -1,0 +1,14 @@
+theme,pattern
+onboarding,\bonboarding\b|setup wizard|quick tour|guest access|learning curve|starter workspace|getting started|new hires?
+pricing,\bpric(e|ing)\b|\bplans?\b|renewal|billed?|billing|charged?|charge|cost|\bexpensive\b|upgrade|refund|tiers?
+integrations,integrat|connector|webhook|automation|sync|crm|lms|exporter|embedded|native connectors?
+api,\bapi\b|\bsdk\b|rate limits?|endpoints?
+performance,performance|slow|lags?|lagged?|freeze|froze|fast|speed|seconds|unusable|drained|loading a page|load quickly
+mobile,mobile|\bphone\b|offline|on the go
+collaboration,collaborat|comments?|real-?time|permissions?|access control|share[d]?|guests?|assign|concurren|revision history|deleted a page
+templates,templates?|blueprint|master cop
+migration,migrat|import|export|lock-?in|orphaned|moved|switched to
+support,support|ticket|agent|responded?|reply|replied|closed as|escalat|response
+security,securit|sso|audit|retention|residency|data center|compliance|\bssa
+roadmap,roadmap|planned|timeline|feature requests?|suggestion forum|released a|public roadmap
+competitor,notion|obsidian|other (?:tool|app)|competitor|alternatives?|compared|phasing out|different product

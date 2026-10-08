@@ -1,0 +1,11 @@
+id,persona,role,company_type,company_size,plan_tier,months_onboard,churn_reason,interview_date,transcript_file
+01,Founder,CEO / Founder,SaaS startup,4,Pro,8,Pricing & value,2026-04-12,01_founder_amara.txt
+02,Founder,Co-founder,Design studio,6,Standard,5,Performance & lock-in,2026-03-03,02_founder_marcus.txt
+03,Founder,Founder / Admin,Data consultancy,3,Pro,10,API & integrations,2026-02-18,03_founder_priya.txt
+04,Founder,Co-founder,Product startup,5,Standard,3,Onboarding & billing,2026-01-27,04_founder_tomas.txt
+05,Founder,Founder,Small studio,2,Pro,6,Mobile reliability,2026-05-08,05_founder_elena.txt
+06,Product Manager,Product Lead,Scaleup,40,Business,12,Collaboration & permissions,2026-06-02,06_pm_dan.txt
+07,Product Manager,Operations Lead,Creative agency,25,Standard,7,Templates,2026-03-21,07_pm_sara.txt
+08,Product Manager,PM / Security lead,Fintech,15,Business,9,Security & residency,2026-04-29,08_pm_julien.txt
+09,Product Manager,Ops Manager,E-commerce,30,Standard,4,Support,2026-02-09,09_pm_ling.txt
+10,Product Manager,Product Lead,Edtech,18,Pro,11,API & roadmap,2026-06-15,10_pm_nadia.txt
