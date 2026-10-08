@@ -1,8 +1,8 @@
 # NovaNote — Voice of the Customer (Exit Interview Analysis)
 
-Portfolio project **A1** for the **Customer & Market Research** gig: analyzing why business
-accounts churn from a fictional Notion-class productivity app, using a transparent,
-free/open-source stack.
+NovaNote is a hypothetical Notion-class productivity app used as a demonstration case.
+This project analyzes why business accounts churn, end to end, with a transparent stack:
+from interview corpus and sentiment analysis to an interactive theme network and report.
 
 ## What this project does
 
@@ -72,5 +72,5 @@ Python 3.12 · pandas · numpy · transformers (RoBERTa) · NLTK/VADER · networ
 python-louvain · scipy/scikit-learn · matplotlib · wordcloud · Streamlit + Plotly ·
 reportlab · Git/GitHub.
 
-> The data is fictional and authored for portfolio purposes. All code is clean of
-> comments by design; the focus is on method transparency and business outcomes.
+> The dataset is hypothetical and prepared for demonstration purposes. All code is clean
+> of comments by design; the focus is on method transparency and business outcomes.

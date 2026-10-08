@@ -82,9 +82,12 @@ def long_theme(segs):
 @st.cache_data(show_spinner=False)
 def wordcloud_image(segs):
     text = " ".join(segs["text"].astype(str))
+    fpath = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"
+    if not Path(fpath).exists():
+        fpath = None
     wc = WordCloud(
         width=800, height=360, background_color="white", colormap="Greys",
-        font_path="/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf", max_words=120,
+        font_path=fpath, max_words=120,
     ).generate(text)
     return wc.to_image()
 

@@ -8,6 +8,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import (
     Paragraph, Spacer, Table, TableStyle, Image, PageBreak, HRFlowable, SimpleDocTemplate,
+    KeepTogether,
 )
 
 from project_config import FIGURES, TABLES, DOCS
@@ -25,7 +26,7 @@ body = ParagraphStyle("body", fontName="Mono", fontSize=8.6, leading=12.4,
 h1 = ParagraphStyle("h1", fontName="Mono-B", fontSize=15, leading=18, textColor=BLACK,
                     spaceBefore=14, spaceAfter=8)
 h2 = ParagraphStyle("h2", fontName="Mono-B", fontSize=11, leading=14, textColor=GREY,
-                    spaceBefore=10, spaceAfter=5)
+                    spaceBefore=10, spaceAfter=5, keepWithNext=1)
 sub = ParagraphStyle("sub", fontName="Mono", fontSize=9.5, leading=13, textColor=GREY,
                      spaceAfter=10)
 cell = ParagraphStyle("cell", fontName="Mono", fontSize=7.6, leading=10, textColor=BLACK)
@@ -110,7 +111,8 @@ def build():
 
     story += [
         P("NovaNote - Voice of the Customer", h1),
-        P("Exit interview analysis | portfolio project A1", sub),
+        P("Customer exit-interview study", sub),
+        P("Prepared on a hypothetical customer dataset for demonstration purposes.", sub),
         HRFlowable(width="100%", thickness=1, color=BLACK, spaceAfter=10),
 
         P("1. Executive summary", h2),
@@ -134,7 +136,7 @@ def build():
           "co-occurrence network with centrality, community detection and propagation indicators; "
           "(4) surface everything in an interactive dashboard and a written report.", body),
 
-        P("4. Technological stack (all free / open-source)", h2),
+        P("4. Technological stack", h2),
         table(pd.DataFrame({
             "tool": ["Python 3.12", "pandas / numpy", "transformers + RoBERTa", "VADER (NLTK)",
                      "networkx + python-louvain", "scipy / scikit-learn", "matplotlib / wordcloud",
@@ -146,8 +148,8 @@ def build():
         Spacer(1, 6),
 
         P("5. Methodology", h2),
-        P("Corpus: 10 fictional-but-realistic exit interviews (5 founders, 5 product managers), split "
-          "into 50 paragraph segments. Each segment was coded multi-label against a 13-theme dictionary "
+        P("Corpus: 10 customer exit interviews (5 founders, 5 product managers), split into 50 "
+          "paragraph segments. Each segment was coded multi-label against a 13-theme dictionary "
           "using regex keyword matching.", body),
         P("Sentiment: per segment, cardiffnlp/twitter-roberta-base-sentiment (CPU) returns a "
           "positive/neutral/negative distribution scored [-1, +1]; VADER supplies a lexicon baseline. "
@@ -160,16 +162,21 @@ def build():
 
         P("6. Results", h2),
 
-        P("6.1 Sentiment model reliability", h3lg()),
-        table(rel[["model", "accuracy", "macro_f1", "cohen_kappa"]], widths=[4 * cm, 4 * cm, 4 * cm, 4 * cm]),
+        KeepTogether([
+            P("6.1 Sentiment model reliability", h3lg()),
+            table(rel[["model", "accuracy", "macro_f1", "cohen_kappa"]],
+                  widths=[4 * cm, 4 * cm, 4 * cm, 4 * cm]),
+        ]),
         Spacer(1, 4),
         P("RoBERTa outperforms the lexicon baseline on every metric and is retained as the primary "
           "engine. The confusion matrix against gold labels:", body),
         table(cm_, widths=[4.5 * cm] + [3 * cm] * 3),
         Spacer(1, 6),
 
-        P("6.2 Sentiment by theme", h3lg()),
-        img("sentiment_by_theme.png"),
+        KeepTogether([
+            P("6.2 Sentiment by theme", h3lg()),
+            img("sentiment_by_theme.png"),
+        ]),
         table(senti.sort_values("mean_score")
               [["theme", "mean_score", "n_segments", "negative_share"]].round(2),
               widths=[4.5 * cm, 4 * cm, 4 * cm, 4 * cm]),
@@ -177,14 +184,18 @@ def build():
         P(f"Most negative: {', '.join(least['theme'])}. Most positive: {', '.join(best['theme'])}.", body),
         Spacer(1, 6),
 
-        P("6.3 Sentiment trends", h3lg()),
-        img("sentiment_timeline.png"),
+        KeepTogether([
+            P("6.3 Sentiment trends", h3lg()),
+            img("sentiment_timeline.png"),
+        ]),
         img("sentiment_by_persona.png"),
         table(month, widths=[6 * cm, 6 * cm]),
         Spacer(1, 6),
 
-        P("6.4 Theme network, centrality and communities", h3lg()),
-        img("theme_network_2d.png"),
+        KeepTogether([
+            P("6.4 Theme network, centrality and communities", h3lg()),
+            img("theme_network_2d.png"),
+        ]),
         table(metrics.sort_values("betweenness", ascending=False)
               [["theme", "degree", "weighted_degree", "betweenness", "closeness", "eigenvector", "pagerank", "community"]],
               widths=[2.6 * cm, 1.9 * cm, 2.6 * cm, 2.4 * cm, 2.2 * cm, 2.3 * cm, 2.0 * cm, 1.9 * cm]),
@@ -213,7 +224,7 @@ def build():
 
 def h3lg():
     return ParagraphStyle("h3lg", fontName="Mono-B", fontSize=9.6, leading=13, textColor=BLACK,
-                          spaceBefore=8, spaceAfter=4)
+                          spaceBefore=8, spaceAfter=4, keepWithNext=1)
 
 
 if __name__ == "__main__":
