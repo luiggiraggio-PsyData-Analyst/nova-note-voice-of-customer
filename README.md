@@ -55,7 +55,7 @@ docs/A1_report.pdf      the written report
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 pip install torch --index-url https://download.pytorch.org/whl/cpu
 
 python scripts/01_build_corpus.py
@@ -65,6 +65,10 @@ python scripts/05_report.py        # -> docs/A1_report.pdf
 
 streamlit run scripts/04_dashboard.py
 ```
+
+> `requirements.txt` (lighter) is sufficient to run only the dashboard — it is the file
+> used by the hosted deployment. `requirements-dev.txt` adds the full pipeline (sentiment,
+> network, report).
 
 ## Stack (free / open-source)
 
